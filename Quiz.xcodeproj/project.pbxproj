@@ -14,6 +14,9 @@
 		BAB27E821F356FAF00D4A73A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB27E801F356FAF00D4A73A /* LaunchScreen.storyboard */; };
 		BAB27E8D1F356FAF00D4A73A /* QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB27E8C1F356FAF00D4A73A /* QuizTests.swift */; };
 		BAB27E981F356FAF00D4A73A /* QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB27E971F356FAF00D4A73A /* QuizUITests.swift */; };
+		BAB27EA61F35702300D4A73A /* QulzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB27EA51F35702300D4A73A /* QulzViewController.swift */; };
+		BAB27EA81F3570E800D4A73A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB27EA71F3570E800D4A73A /* ResultViewController.swift */; };
+		BAB27EE41F36E40800D4A73A /* quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB27EE31F36E40800D4A73A /* quiz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		BAB27E931F356FAF00D4A73A /* QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB27E971F356FAF00D4A73A /* QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizUITests.swift; sourceTree = "<group>"; };
 		BAB27E991F356FAF00D4A73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB27EA51F35702300D4A73A /* QulzViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QulzViewController.swift; sourceTree = "<group>"; };
+		BAB27EA71F3570E800D4A73A /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		BAB27EE31F36E40800D4A73A /* quiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = quiz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				BAB27E7E1F356FAF00D4A73A /* Assets.xcassets */,
 				BAB27E801F356FAF00D4A73A /* LaunchScreen.storyboard */,
 				BAB27E831F356FAF00D4A73A /* Info.plist */,
+				BAB27EA51F35702300D4A73A /* QulzViewController.swift */,
+				BAB27EA71F3570E800D4A73A /* ResultViewController.swift */,
+				BAB27EE31F36E40800D4A73A /* quiz.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAB27EA61F35702300D4A73A /* QulzViewController.swift in Sources */,
 				BAB27E7A1F356FAF00D4A73A /* ViewController.swift in Sources */,
 				BAB27E781F356FAF00D4A73A /* AppDelegate.swift in Sources */,
+				BAB27EE41F36E40800D4A73A /* quiz.swift in Sources */,
+				BAB27EA81F3570E800D4A73A /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +517,7 @@
 				BAB27E9E1F356FAF00D4A73A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAB27E9F1F356FAF00D4A73A /* Build configuration list for PBXNativeTarget "QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				BAB27EA11F356FAF00D4A73A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAB27EA21F356FAF00D4A73A /* Build configuration list for PBXNativeTarget "QuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				BAB27EA41F356FAF00D4A73A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
